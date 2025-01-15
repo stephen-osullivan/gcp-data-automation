@@ -1,0 +1,8 @@
+[
+  {"name": "id", "type": "STRING", "mode": "REQUIRED", "description": "Unique identifier", "defaultValueExpression": "GENERATE_UUID()"},
+  {"name": "ingestion_time", "type": "TIMESTAMP", "mode": "REQUIRED", "description": "Ingestion timestamp", "defaultValueExpression": "CURRENT_TIMESTAMP()"},
+  {"name": "date", "type": "DATE", "mode": "REQUIRED", "description": "Date of the record"},
+  {"name": "name", "type": "STRING", "mode": "REQUIRED", "description": "Name of the person"},
+  {"name": "email", "type": "STRING", "mode": "REQUIRED", "description": "Email address"},
+  {"name": "expenditure", "type": "FLOAT", "mode": "REQUIRED", "description": "Amount spent"}
+]
